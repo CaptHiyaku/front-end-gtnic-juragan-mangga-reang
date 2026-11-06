@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --gtnic-orange: #ff9d00;
+  --gtnic-yellow: #ffbd24;
+  --gtnic-dark: #17120b;
+  --gtnic-cream: #fff7e8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: white;
+  color: var(--gtnic-dark);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+::selection {
+  background: #ffbd24;
+  color: #17120b;
+}
+
